@@ -6,6 +6,77 @@
 
 
 
+## [1.4.1](https://github.com/muxinc/media-elements/compare/hls-video-element@1.4.0...hls-video-element@1.4.1) (2024-12-20)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.4.1 to ^1.4.2
+
+## [1.4.0](https://github.com/muxinc/media-elements/compare/hls-video-element@1.3.0...hls-video-element@1.4.0) (2024-12-19)
+
+
+### Features
+
+* add better CJS + types support ([#66](https://github.com/muxinc/media-elements/issues/66)) ([8aa2066](https://github.com/muxinc/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/muxinc/media-elements/issues/44)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.7 to ^0.1.8
+
+## [1.3.0](https://github.com/muxinc/media-elements/compare/hls-video-element@1.2.11...hls-video-element@1.3.0) (2024-12-19)
+
+
+### Features
+
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/muxinc/media-elements/issues/61)) ([0a734e9](https://github.com/muxinc/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.6 to ^0.1.7
+
+## [1.2.11](https://github.com/muxinc/media-elements/compare/hls-video-element@1.2.10...hls-video-element@1.2.11) (2024-11-26)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.4.0 to ^1.4.1
+
+## [1.2.10](https://github.com/muxinc/media-elements/compare/hls-video-element@1.2.9...hls-video-element@1.2.10) (2024-11-26)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.3.3 to ^1.4.0
+
+## [1.2.9](https://github.com/muxinc/media-elements/compare/hls-video-element@1.2.8...hls-video-element@1.2.9) (2024-11-25)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.3.2 to ^1.3.3
+
+## [1.2.8](https://github.com/muxinc/media-elements/compare/hls-video-element@1.2.7...hls-video-element@1.2.8) (2024-09-25)
+
+
+### Bug Fixes
+
+* add Airplay support to hls-video ([#40](https://github.com/muxinc/media-elements/issues/40)) ([e4ce158](https://github.com/muxinc/media-elements/commit/e4ce1584d16486fc5d445b130292e92a771fe0b6))
+
 ## [1.2.7](https://github.com/muxinc/media-elements/compare/hls-video-element@1.2.6...hls-video-element@1.2.7) (2024-06-14)
 
 

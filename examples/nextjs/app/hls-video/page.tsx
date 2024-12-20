@@ -6,25 +6,37 @@ export const metadata: Metadata = {
   title: 'HLS Video - Media Elements',
 };
 
-export default function Page() {
+type PageProps = {
+  params: Promise<{
+    autoplay: string;
+    muted: string;
+    preload: string;
+  }>;
+};
+
+export default async function Page(props: PageProps) {
+  const params = await props.params;
   return (
     <>
       <section>
         <Player
           as={HlsVideo}
           className="video"
-          src="https://stream.mux.com/jtWZbHQ013SLyISc9LbIGn8f4c3lWan00qOkoPMZEXmcU.m3u8"
-          poster="https://image.mux.com/jtWZbHQ013SLyISc9LbIGn8f4c3lWan00qOkoPMZEXmcU/thumbnail.webp?time=0"
+          src="https://stream.mux.com/Sc89iWAyNkhJ3P1rQ02nrEdCFTnfT01CZ2KmaEcxXfB008.m3u8"
+          poster="https://image.mux.com/Sc89iWAyNkhJ3P1rQ02nrEdCFTnfT01CZ2KmaEcxXfB008/thumbnail.webp?time=13"
           controls
           crossOrigin=""
           playsInline
+          autoplay={!!params?.autoplay}
+          muted={!!params?.muted}
+          preload={params?.preload as 'auto' | 'metadata' | 'none'}
           suppressHydrationWarning
         >
           <track
             label="thumbnails"
             default
             kind="metadata"
-            src="https://image.mux.com/jtWZbHQ013SLyISc9LbIGn8f4c3lWan00qOkoPMZEXmcU/storyboard.vtt"
+            src="https://image.mux.com/Sc89iWAyNkhJ3P1rQ02nrEdCFTnfT01CZ2KmaEcxXfB008/storyboard.vtt"
           />
         </Player>
       </section>

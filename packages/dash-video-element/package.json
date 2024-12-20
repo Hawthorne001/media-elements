@@ -1,6 +1,6 @@
 {
   "name": "dash-video-element",
-  "version": "0.0.11",
+  "version": "0.0.17",
   "description": "Custom element for playing video using the DASH format. Uses dash.js.",
   "author": "@muxinc",
   "license": "MIT",
@@ -14,13 +14,35 @@
     "directory": "packages/dash-video-element"
   },
   "files": [
+    "dash-video-element.d.ts",
     "dist"
   ],
   "type": "module",
-  "main": "dash-video-element.js",
+  "types": "./dist/dash-video-element.d.ts",
+  "main": "./dist/dash-video-element.js",
   "exports": {
-    ".": "./dash-video-element.js",
-    "./react": "./dist/react.js"
+    ".": {
+      "types": "./dist/dash-video-element.d.ts",
+      "import": "./dist/dash-video-element.js",
+      "require": "./dist/cjs/dash-video-element.js",
+      "default": "./dist/dash-video-element.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js",
+      "require": "./dist/cjs/react.js",
+      "default": "./dist/react.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "react": [
+        "./dist/react.d.ts"
+      ],
+      "*": [
+        "./dist/dash-video-element.d.ts"
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint *.js",
@@ -30,13 +52,13 @@
     "build": "run-s build:*"
   },
   "dependencies": {
-    "custom-media-element": "^1.3.2",
+    "custom-media-element": "^1.4.2",
     "dashjs-esm": "^4.6.0"
   },
   "devDependencies": {
-    "build-react-wrapper": "^0.1.6",
+    "build-react-wrapper": "^0.1.8",
     "npm-run-all": "^4.1.5",
-    "wet-run": "^1.2.2"
+    "wet-run": "^1.2.5"
   },
   "keywords": [
     "DASH",

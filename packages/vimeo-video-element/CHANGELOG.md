@@ -5,6 +5,41 @@
 [1]: https://www.npmjs.com/package/vimeo-video-element?activeTab=versions
 
 
+## [1.3.0](https://github.com/muxinc/media-elements/compare/vimeo-video-element@1.2.0...vimeo-video-element@1.3.0) (2024-12-19)
+
+
+### Features
+
+* add better CJS + types support ([#66](https://github.com/muxinc/media-elements/issues/66)) ([8aa2066](https://github.com/muxinc/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/muxinc/media-elements/issues/44)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.7 to ^0.1.8
+
+## [1.2.0](https://github.com/muxinc/media-elements/compare/vimeo-video-element@1.1.7...vimeo-video-element@1.2.0) (2024-12-19)
+
+
+### Features
+
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/muxinc/media-elements/issues/61)) ([0a734e9](https://github.com/muxinc/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.6 to ^0.1.7
+
+## [1.1.7](https://github.com/muxinc/media-elements/compare/vimeo-video-element@1.1.6...vimeo-video-element@1.1.7) (2024-11-06)
+
+
+### Bug Fixes
+
+* Match params for unlisted videos ([#43](https://github.com/muxinc/media-elements/issues/43)) ([d2abefc](https://github.com/muxinc/media-elements/commit/d2abefcfff370bf26232331abbb009aaf02108fb))
+
 ## [1.1.6](https://github.com/muxinc/media-elements/compare/vimeo-video-element@1.1.5...vimeo-video-element@1.1.6) (2024-06-14)
 
 

@@ -5,6 +5,34 @@
 [1]: https://www.npmjs.com/package/spotify-audio-element?activeTab=versions
 
 
+## [0.1.12](https://github.com/muxinc/media-elements/compare/spotify-audio-element@0.1.11...spotify-audio-element@0.1.12) (2024-12-19)
+
+
+### Features
+
+* add better CJS + types support ([#66](https://github.com/muxinc/media-elements/issues/66)) ([8aa2066](https://github.com/muxinc/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/muxinc/media-elements/issues/44)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.7 to ^0.1.8
+
+## [0.1.11](https://github.com/muxinc/media-elements/compare/spotify-audio-element@0.1.10...spotify-audio-element@0.1.11) (2024-12-19)
+
+
+### Features
+
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/muxinc/media-elements/issues/61)) ([0a734e9](https://github.com/muxinc/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.6 to ^0.1.7
+
 ## [0.1.10](https://github.com/muxinc/media-elements/compare/spotify-audio-element@0.1.9...spotify-audio-element@0.1.10) (2024-06-14)
 
 

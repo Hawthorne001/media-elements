@@ -5,6 +5,35 @@
 [1]: https://www.npmjs.com/package/custom-media-element?activeTab=versions
 
 
+## [1.4.2](https://github.com/muxinc/media-elements/compare/custom-media-element@1.4.1...custom-media-element@1.4.2) (2024-12-20)
+
+
+### Bug Fixes
+
+* SSR non video attrs ([#69](https://github.com/muxinc/media-elements/issues/69)) ([67c7141](https://github.com/muxinc/media-elements/commit/67c7141ccd43b4aeed81e536defb78f8fc580500))
+
+## [1.4.1](https://github.com/muxinc/media-elements/compare/custom-media-element@1.4.0...custom-media-element@1.4.1) (2024-11-26)
+
+
+### Bug Fixes
+
+* missing code / changes by AI TS conversion ([#54](https://github.com/muxinc/media-elements/issues/54)) ([f54dcf3](https://github.com/muxinc/media-elements/commit/f54dcf3e26b33223a5306c3d733521cd3388b62a))
+
+## [1.4.0](https://github.com/muxinc/media-elements/compare/custom-media-element@1.3.3...custom-media-element@1.4.0) (2024-11-26)
+
+
+### Features
+
+* use Typescript in custom-media-element ([#51](https://github.com/muxinc/media-elements/issues/51)) ([5dbfb0a](https://github.com/muxinc/media-elements/commit/5dbfb0a04ebd8bff22574f3aeaf682d28cf07fb6))
+
+## [1.3.3](https://github.com/muxinc/media-elements/compare/custom-media-element@1.3.2...custom-media-element@1.3.3) (2024-11-25)
+
+
+### Bug Fixes
+
+* update track/source clone attributes ([#49](https://github.com/muxinc/media-elements/issues/49)) ([b4d8a4b](https://github.com/muxinc/media-elements/commit/b4d8a4b782c52bcc969aacc2cd9deeef4b7e2b11))
+* use media slot ([#52](https://github.com/muxinc/media-elements/issues/52)) ([d80267e](https://github.com/muxinc/media-elements/commit/d80267e0df1857fdd03020b408411b9b7223caf9))
+
 ## [1.3.2](https://github.com/muxinc/media-elements/compare/custom-media-element@1.3.1...custom-media-element@1.3.2) (2024-06-07)
 
 
