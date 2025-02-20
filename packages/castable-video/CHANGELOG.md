@@ -5,6 +5,54 @@
 [1]: https://www.npmjs.com/package/castable-video?activeTab=versions
 
 
+## [1.1.4](https://github.com/muxinc/media-elements/compare/castable-video@1.1.3...castable-video@1.1.4) (2024-12-20)
+
+
+### Bug Fixes
+
+* no cast framework rq w/ disableremoteplayback ([#72](https://github.com/muxinc/media-elements/issues/72)) ([fd7a34d](https://github.com/muxinc/media-elements/commit/fd7a34df003a6cb7c0edf9e00df6562b5334bad3)), closes [#59](https://github.com/muxinc/media-elements/issues/59)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ~1.4.1 to ~1.4.2
+
+## [1.1.3](https://github.com/muxinc/media-elements/compare/castable-video@1.1.2...castable-video@1.1.3) (2024-11-26)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ~1.4.0 to ~1.4.1
+
+## [1.1.2](https://github.com/muxinc/media-elements/compare/castable-video@1.1.1...castable-video@1.1.2) (2024-11-26)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ~1.3.3 to ~1.4.0
+
+## [1.1.1](https://github.com/muxinc/media-elements/compare/castable-video@1.1.0...castable-video@1.1.1) (2024-11-25)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ~1.3.2 to ~1.3.3
+
+## [1.1.0](https://github.com/muxinc/media-elements/compare/castable-video@1.0.10...castable-video@1.1.0) (2024-08-13)
+
+
+### Features
+
+* **castable-video:** Add castCustomData to send arbitrary custom data to receiver app on load. ([dcc50be](https://github.com/muxinc/media-elements/commit/dcc50be4d1bef4cf91978f8ffd97bd5f5ea908d0))
+
 ## [1.0.10](https://github.com/muxinc/media-elements/compare/castable-video@1.0.9...castable-video@1.0.10) (2024-06-07)
 
 

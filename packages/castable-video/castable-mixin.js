@@ -30,13 +30,17 @@ export const CastableMediaMixin = (superclass) =>
 
     #localState = { paused: false };
     #castOptions = getDefaultCastOptions();
+    #castCustomData;
     #remote;
 
     get remote() {
       if (this.#remote) return this.#remote;
 
       if (requiresCastFramework()) {
-        loadCastFramework();
+        // No need to load the Cast framework if it's disabled.
+        if (!this.disableRemotePlayback) {
+          loadCastFramework();
+        }
 
         privateProps.set(this, {
           loadOnPrompt: () => this.#loadOnPrompt()
@@ -89,6 +93,7 @@ export const CastableMediaMixin = (superclass) =>
       if (!this.#castPlayer) return super.load();
 
       const mediaInfo = new chrome.cast.media.MediaInfo(this.castSrc, this.castContentType);
+      mediaInfo.customData = this.castCustomData;
 
       // Manually add text tracks with a `src` attribute.
       // M3U8's load text tracks in the receiver, handle these in the media loaded event.
@@ -219,6 +224,20 @@ export const CastableMediaMixin = (superclass) =>
 
     set castStreamType(val) {
       this.setAttribute('cast-stream-type', `${val}`);
+    }
+
+    get castCustomData() {
+      return this.#castCustomData;
+    }
+
+    set castCustomData(val) {
+      const valType = typeof val;
+      if (!['object', 'undefined'].includes(valType)) {
+        console.error(`castCustomData must be nullish or an object but value was of type ${valType}`);
+        return;
+      }
+
+      this.#castCustomData = val;
     }
 
     get readyState() {

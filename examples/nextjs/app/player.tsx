@@ -1,7 +1,16 @@
 'use client';
 
-export default function Player(props: any) {
-  const { as: PlayerElement, ...rest } = props;
+import type React from 'react';
+
+type PolymorphicProps<E extends React.ElementType> = React.PropsWithChildren<React.ComponentProps<E> & {
+  as: E;
+}>;
+
+export default function Player<T extends React.ElementType>({
+  as: PlayerElement,
+  children,
+  ...rest
+}: PolymorphicProps<T>) {
   return (
     <PlayerElement
       {...rest}
@@ -11,6 +20,8 @@ export default function Player(props: any) {
       onPause={(event: Event) => {
         console.log(event.type);
       }}
-    ></PlayerElement>
+    >
+      {children}
+    </PlayerElement>
   );
 }

@@ -5,6 +5,77 @@
 [1]: https://www.npmjs.com/package/dash-video-element?activeTab=versions
 
 
+## [0.1.0](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.17...dash-video-element@0.1.0) (2025-02-18)
+
+
+### Features
+
+* upgrade dash.js ([#79](https://github.com/muxinc/media-elements/issues/79)) ([36edc9e](https://github.com/muxinc/media-elements/commit/36edc9e84c7d8d75ea1d658975d312312b18637c))
+
+## [0.0.17](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.16...dash-video-element@0.0.17) (2024-12-20)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.4.1 to ^1.4.2
+
+## [0.0.16](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.15...dash-video-element@0.0.16) (2024-12-19)
+
+
+### Features
+
+* add better CJS + types support ([#66](https://github.com/muxinc/media-elements/issues/66)) ([8aa2066](https://github.com/muxinc/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/muxinc/media-elements/issues/44)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.7 to ^0.1.8
+
+## [0.0.15](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.14...dash-video-element@0.0.15) (2024-12-19)
+
+
+### Features
+
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/muxinc/media-elements/issues/61)) ([0a734e9](https://github.com/muxinc/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.1.6 to ^0.1.7
+
+## [0.0.14](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.13...dash-video-element@0.0.14) (2024-11-26)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.4.0 to ^1.4.1
+
+## [0.0.13](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.12...dash-video-element@0.0.13) (2024-11-26)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.3.3 to ^1.4.0
+
+## [0.0.12](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.11...dash-video-element@0.0.12) (2024-11-25)
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.3.2 to ^1.3.3
+
 ## [0.0.11](https://github.com/muxinc/media-elements/compare/dash-video-element@0.0.10...dash-video-element@0.0.11) (2024-06-14)
 
 

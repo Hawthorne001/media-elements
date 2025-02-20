@@ -1,6 +1,6 @@
 {
   "name": "youtube-video-element",
-  "version": "1.1.6",
+  "version": "1.4.0",
   "description": "Custom element (web component) for the YouTube player.",
   "author": "@muxinc",
   "license": "MIT",
@@ -14,13 +14,35 @@
     "directory": "packages/youtube-video-element"
   },
   "files": [
+    "youtube-video-element.d.ts",
     "dist"
   ],
   "type": "module",
-  "main": "youtube-video-element.js",
+  "types": "./dist/youtube-video-element.d.ts",
+  "main": "./dist/youtube-video-element.js",
   "exports": {
-    ".": "./youtube-video-element.js",
-    "./react": "./dist/react.js"
+    ".": {
+      "types": "./dist/youtube-video-element.d.ts",
+      "import": "./dist/youtube-video-element.js",
+      "require": "./dist/cjs/youtube-video-element.js",
+      "default": "./dist/youtube-video-element.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js",
+      "require": "./dist/cjs/react.js",
+      "default": "./dist/react.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "react": [
+        "./dist/react.d.ts"
+      ],
+      "*": [
+        "./dist/youtube-video-element.d.ts"
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint *.js",
@@ -30,9 +52,9 @@
     "build": "run-s build:*"
   },
   "devDependencies": {
-    "build-react-wrapper": "^0.1.6",
+    "build-react-wrapper": "^0.1.8",
     "npm-run-all": "^4.1.5",
-    "wet-run": "^1.2.2"
+    "wet-run": "^1.2.5"
   },
   "keywords": [
     "youtube",

@@ -1,6 +1,6 @@
 {
   "name": "videojs-video-element",
-  "version": "1.2.7",
+  "version": "1.4.0",
   "description": "A custom element for Video.js with an API that matches the `<video>` API",
   "author": "@muxinc",
   "license": "MIT",
@@ -14,13 +14,35 @@
     "directory": "packages/videojs-video-element"
   },
   "files": [
+    "videojs-video-element.d.ts",
     "dist"
   ],
   "type": "module",
-  "main": "videojs-video-element.js",
+  "types": "./dist/videojs-video-element.d.ts",
+  "main": "./dist/videojs-video-element.js",
   "exports": {
-    ".": "./videojs-video-element.js",
-    "./react": "./dist/react.js"
+    ".": {
+      "types": "./dist/videojs-video-element.d.ts",
+      "import": "./dist/videojs-video-element.js",
+      "require": "./dist/cjs/videojs-video-element.js",
+      "default": "./dist/videojs-video-element.js"
+    },
+    "./react": {
+      "types": "./dist/react.d.ts",
+      "import": "./dist/react.js",
+      "require": "./dist/cjs/react.js",
+      "default": "./dist/react.js"
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "react": [
+        "./dist/react.d.ts"
+      ],
+      "*": [
+        "./dist/videojs-video-element.d.ts"
+      ]
+    }
   },
   "scripts": {
     "lint": "eslint *.js",
@@ -34,9 +56,9 @@
     "super-media-element": "~1.4.2"
   },
   "devDependencies": {
-    "build-react-wrapper": "^0.1.6",
+    "build-react-wrapper": "^0.1.8",
     "npm-run-all": "^4.1.5",
-    "wet-run": "^1.2.2"
+    "wet-run": "^1.2.5"
   },
   "keywords": [
     "video.js",
