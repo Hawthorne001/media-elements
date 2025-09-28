@@ -1,5 +1,25 @@
 # Changelog
 
+## [0.2.0](https://github.com/Hawthorne001/media-elements/compare/twitch-video-element-v0.1.4...twitch-video-element@0.2.0) (2025-09-28)
+
+
+### Features
+
+* Add `getVideoPlaybackQuality()` ([#153](https://github.com/Hawthorne001/media-elements/issues/153)) ([ff9b612](https://github.com/Hawthorne001/media-elements/commit/ff9b6128bfaeaa91a773633f60f389376d7ec9e7))
+* add twitch-video-element ([#137](https://github.com/Hawthorne001/media-elements/issues/137)) ([3715889](https://github.com/Hawthorne001/media-elements/commit/3715889f341695dc6882a5028198abfaf8425352))
+
+
+### Bug Fixes
+
+* Twitch issue with message handling ([8c233d1](https://github.com/Hawthorne001/media-elements/commit/8c233d13bbf552247a84e8ad77d234b7c9ccc57f))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.2.3 to ^0.3.0
+
 ## [0.1.4](https://github.com/muxinc/media-elements/compare/twitch-video-element@0.1.3...twitch-video-element@0.1.4) (2025-08-12)
 
 
