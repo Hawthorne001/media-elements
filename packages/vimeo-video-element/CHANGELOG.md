@@ -5,6 +5,44 @@
 [1]: https://www.npmjs.com/package/vimeo-video-element?activeTab=versions
 
 
+## [1.8.0](https://github.com/Hawthorne001/media-elements/compare/vimeo-video-element-v1.7.0...vimeo-video-element@1.8.0) (2026-02-20)
+
+
+### Features
+
+* add better CJS + types support ([#66](https://github.com/Hawthorne001/media-elements/issues/66)) ([8aa2066](https://github.com/Hawthorne001/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/Hawthorne001/media-elements/issues/44)
+* add config property to vimeo-video ([#88](https://github.com/Hawthorne001/media-elements/issues/88)) ([8d19588](https://github.com/Hawthorne001/media-elements/commit/8d19588702072a710f4c27f5eaf1d8df1e1a22f2))
+* Add played ranges tracking to iframe based media elements ([#199](https://github.com/Hawthorne001/media-elements/issues/199)) ([f15c263](https://github.com/Hawthorne001/media-elements/commit/f15c2635cc75cd0df954b1037d13c32269a1243c))
+* add renditions for Shaka video element ([#210](https://github.com/Hawthorne001/media-elements/issues/210)) ([138d359](https://github.com/Hawthorne001/media-elements/commit/138d3591910cf0925f32da09fc611ef8cc496a2b))
+* add SSR to vimeo-video-element ([c44e755](https://github.com/Hawthorne001/media-elements/commit/c44e755a57c252631971b17b0f3b1607ac0ec70f))
+* media elements arise 🌱 ([5303770](https://github.com/Hawthorne001/media-elements/commit/530377067b9d87b464b3c4eadc93c6b210deac56))
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/Hawthorne001/media-elements/issues/61)) ([0a734e9](https://github.com/Hawthorne001/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+* Vimeo fullscreen & PiP via API to avoid Apple iframe restriction ([#122](https://github.com/Hawthorne001/media-elements/issues/122)) ([bff8f09](https://github.com/Hawthorne001/media-elements/commit/bff8f09e9f4799986c29b11b96df5117efb9b74a))
+* **vimeo:** add TextTrack support using Vimeo API and add media-tracks integration ([#163](https://github.com/Hawthorne001/media-elements/issues/163)) ([fdf8c12](https://github.com/Hawthorne001/media-elements/commit/fdf8c12b63b16a0d76a389b76a2b5a9ed4e153ba))
+
+
+### Bug Fixes
+
+* add React SSR in cloudflare-video-element ([e7d3651](https://github.com/Hawthorne001/media-elements/commit/e7d36517ce2682a6642e3dbcb2e48875678d53bd))
+* correct commit message format for volumechange youtube ([#179](https://github.com/Hawthorne001/media-elements/issues/179)) ([#188](https://github.com/Hawthorne001/media-elements/issues/188)) ([eb8ff39](https://github.com/Hawthorne001/media-elements/commit/eb8ff39d23f64072da8562aae2957c74d2491fa3))
+* correct url generation for vimeo events ([#183](https://github.com/Hawthorne001/media-elements/issues/183)) ([1d35378](https://github.com/Hawthorne001/media-elements/commit/1d3537865cca673939562e48c37fa8c224278df4))
+* Match params for unlisted videos ([#43](https://github.com/Hawthorne001/media-elements/issues/43)) ([d2abefc](https://github.com/Hawthorne001/media-elements/commit/d2abefcfff370bf26232331abbb009aaf02108fb))
+* state issues ([dbc5de7](https://github.com/Hawthorne001/media-elements/commit/dbc5de783596dec7b816b7cd09790e363a5a682f))
+* support both path and query string formats for unlisted video hash ([#203](https://github.com/Hawthorne001/media-elements/issues/203)) ([106bd26](https://github.com/Hawthorne001/media-elements/commit/106bd26e605f3e51a126a404df8ba7c4790a570b))
+* support for unlisted Vimeo videos ([#195](https://github.com/Hawthorne001/media-elements/issues/195)) ([37ed558](https://github.com/Hawthorne001/media-elements/commit/37ed5589319debe1a75f105cdf70de2af5e20cef))
+* update build-react-wrapper script ([5b42462](https://github.com/Hawthorne001/media-elements/commit/5b42462794192a19b730e7aaabba5646300f0a05))
+* update MATCH_SRC to include vimeo/event/:id URLs. ([#159](https://github.com/Hawthorne001/media-elements/issues/159)) ([9db6656](https://github.com/Hawthorne001/media-elements/commit/9db6656923b2ceb667258bf8171b5671a4f4033b))
+* upgrade dependencies ([#130](https://github.com/Hawthorne001/media-elements/issues/130)) ([afb6797](https://github.com/Hawthorne001/media-elements/commit/afb6797342db3be3d173957d44df49fd26ffafc5))
+* Vimeo config w/ React SSR + types ([#94](https://github.com/Hawthorne001/media-elements/issues/94)) ([c8fed3e](https://github.com/Hawthorne001/media-elements/commit/c8fed3e06282aa317d7acc67ce42f598a7fd1c4e))
+* vimeo setter error due to nil value ([42ab3e7](https://github.com/Hawthorne001/media-elements/commit/42ab3e72a46662fb597e3150adad66396fbc3639))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * devDependencies
+    * build-react-wrapper bumped from ^0.2.4 to ^0.3.0
+
 ## [1.7.0](https://github.com/muxinc/media-elements/compare/vimeo-video-element@1.6.3...vimeo-video-element@1.7.0) (2026-02-17)
 
 

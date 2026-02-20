@@ -5,6 +5,22 @@
 [1]: https://www.npmjs.com/package/media-tracks?activeTab=versions
 
 
+## [0.4.0](https://github.com/Hawthorne001/media-elements/compare/media-tracks-v0.3.4...media-tracks@0.4.0) (2026-02-20)
+
+
+### Features
+
+* add renditions for Shaka video element ([#210](https://github.com/Hawthorne001/media-elements/issues/210)) ([138d359](https://github.com/Hawthorne001/media-elements/commit/138d3591910cf0925f32da09fc611ef8cc496a2b))
+
+
+### Bug Fixes
+
+* add media-tracks package ([9042141](https://github.com/Hawthorne001/media-elements/commit/9042141b3403d6bd20a81d0d4fb803a2eb6b1cbe))
+* correct commit message format for volumechange youtube ([#179](https://github.com/Hawthorne001/media-elements/issues/179)) ([#188](https://github.com/Hawthorne001/media-elements/issues/188)) ([eb8ff39](https://github.com/Hawthorne001/media-elements/commit/eb8ff39d23f64072da8562aae2957c74d2491fa3))
+* release media-tracks patch, fix missing dist ([e12b560](https://github.com/Hawthorne001/media-elements/commit/e12b5607911bb802296e2a0332f073f48cb1a4b7))
+* renaming track-event to change-event ([#186](https://github.com/Hawthorne001/media-elements/issues/186)) ([6f620ef](https://github.com/Hawthorne001/media-elements/commit/6f620efd6bae788028380e28f0e0e75275216c2b))
+* upgrade dependencies ([#24](https://github.com/Hawthorne001/media-elements/issues/24)) ([f5abdcf](https://github.com/Hawthorne001/media-elements/commit/f5abdcff0637e7d1f6b82f4684d94fccaceb8484))
+
 ## [0.3.4](https://github.com/muxinc/media-elements/compare/media-tracks@0.3.3...media-tracks@0.3.4) (2025-11-07)
 
 
