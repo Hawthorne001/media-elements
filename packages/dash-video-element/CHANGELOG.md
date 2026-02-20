@@ -5,6 +5,38 @@
 [1]: https://www.npmjs.com/package/dash-video-element?activeTab=versions
 
 
+## [0.4.0](https://github.com/Hawthorne001/media-elements/compare/dash-video-element-v0.3.1...dash-video-element@0.4.0) (2026-02-20)
+
+
+### Features
+
+* : Enable multiple renditions in dash video element ([#148](https://github.com/Hawthorne001/media-elements/issues/148)) ([2f5655c](https://github.com/Hawthorne001/media-elements/commit/2f5655c2bf415132e180d7c05d0f9c0a431072ae))
+* add better CJS + types support ([#66](https://github.com/Hawthorne001/media-elements/issues/66)) ([8aa2066](https://github.com/Hawthorne001/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/Hawthorne001/media-elements/issues/44)
+* add renditions for Shaka video element ([#210](https://github.com/Hawthorne001/media-elements/issues/210)) ([138d359](https://github.com/Hawthorne001/media-elements/commit/138d3591910cf0925f32da09fc611ef8cc496a2b))
+* add SSR to hls and dash video element ([08a4d09](https://github.com/Hawthorne001/media-elements/commit/08a4d09c7a514e9d22a74a9b21abf7df2c27298d))
+* Add support for MPD Tiles of thumbnail images in &lt;dash-video/&gt; element ([#177](https://github.com/Hawthorne001/media-elements/issues/177)) ([0b59b78](https://github.com/Hawthorne001/media-elements/commit/0b59b786c0b7064fcee660aa17e373e08f9931d9))
+* media elements arise 🌱 ([5303770](https://github.com/Hawthorne001/media-elements/commit/530377067b9d87b464b3c4eadc93c6b210deac56))
+* upgrade dash.js ([#79](https://github.com/Hawthorne001/media-elements/issues/79)) ([36edc9e](https://github.com/Hawthorne001/media-elements/commit/36edc9e84c7d8d75ea1d658975d312312b18637c))
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/Hawthorne001/media-elements/issues/61)) ([0a734e9](https://github.com/Hawthorne001/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+
+
+### Bug Fixes
+
+* add React SSR in cloudflare-video-element ([e7d3651](https://github.com/Hawthorne001/media-elements/commit/e7d36517ce2682a6642e3dbcb2e48875678d53bd))
+* correct commit message format for volumechange youtube ([#179](https://github.com/Hawthorne001/media-elements/issues/179)) ([#188](https://github.com/Hawthorne001/media-elements/issues/188)) ([eb8ff39](https://github.com/Hawthorne001/media-elements/commit/eb8ff39d23f64072da8562aae2957c74d2491fa3))
+* update build-react-wrapper script ([5b42462](https://github.com/Hawthorne001/media-elements/commit/5b42462794192a19b730e7aaabba5646300f0a05))
+* upgrade dependencies ([#130](https://github.com/Hawthorne001/media-elements/issues/130)) ([afb6797](https://github.com/Hawthorne001/media-elements/commit/afb6797342db3be3d173957d44df49fd26ffafc5))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.4.5 to ^1.5.0
+    * media-tracks bumped from ^0.3.4 to ^0.4.0
+  * devDependencies
+    * build-react-wrapper bumped from ^0.2.4 to ^0.3.0
+
 ## [0.3.1](https://github.com/muxinc/media-elements/compare/dash-video-element@0.3.0...dash-video-element@0.3.1) (2025-11-25)
 
 

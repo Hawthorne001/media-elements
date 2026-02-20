@@ -5,6 +5,34 @@
 [1]: https://www.npmjs.com/package/videojs-video-element?activeTab=versions
 
 
+## [1.5.0](https://github.com/Hawthorne001/media-elements/compare/videojs-video-element-v1.4.6...videojs-video-element@1.5.0) (2026-02-20)
+
+
+### Features
+
+* add better CJS + types support ([#66](https://github.com/Hawthorne001/media-elements/issues/66)) ([8aa2066](https://github.com/Hawthorne001/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/Hawthorne001/media-elements/issues/44)
+* add renditions for Shaka video element ([#210](https://github.com/Hawthorne001/media-elements/issues/210)) ([138d359](https://github.com/Hawthorne001/media-elements/commit/138d3591910cf0925f32da09fc611ef8cc496a2b))
+* media elements arise 🌱 ([5303770](https://github.com/Hawthorne001/media-elements/commit/530377067b9d87b464b3c4eadc93c6b210deac56))
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/Hawthorne001/media-elements/issues/61)) ([0a734e9](https://github.com/Hawthorne001/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+
+
+### Bug Fixes
+
+* add React SSR in cloudflare-video-element ([e7d3651](https://github.com/Hawthorne001/media-elements/commit/e7d36517ce2682a6642e3dbcb2e48875678d53bd))
+* correct commit message format for volumechange youtube ([#179](https://github.com/Hawthorne001/media-elements/issues/179)) ([#188](https://github.com/Hawthorne001/media-elements/issues/188)) ([eb8ff39](https://github.com/Hawthorne001/media-elements/commit/eb8ff39d23f64072da8562aae2957c74d2491fa3))
+* state issues ([dbc5de7](https://github.com/Hawthorne001/media-elements/commit/dbc5de783596dec7b816b7cd09790e363a5a682f))
+* update build-react-wrapper script ([5b42462](https://github.com/Hawthorne001/media-elements/commit/5b42462794192a19b730e7aaabba5646300f0a05))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * media-tracks bumped from ^0.3.4 to ^0.4.0
+    * super-media-element bumped from ~1.4.2 to ~1.5.0
+  * devDependencies
+    * build-react-wrapper bumped from ^0.2.4 to ^0.3.0
+
 ## [1.4.6](https://github.com/muxinc/media-elements/compare/videojs-video-element@1.4.5...videojs-video-element@1.4.6) (2025-11-25)
 
 

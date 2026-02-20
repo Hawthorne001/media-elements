@@ -1,5 +1,33 @@
 # Changelog
 
+## [0.8.0](https://github.com/Hawthorne001/media-elements/compare/shaka-video-element-v0.7.0...shaka-video-element@0.8.0) (2026-02-20)
+
+
+### Features
+
+* add better CJS + types support ([#66](https://github.com/Hawthorne001/media-elements/issues/66)) ([8aa2066](https://github.com/Hawthorne001/media-elements/commit/8aa20660faea741a264076a1464182ca283a8682)), closes [#44](https://github.com/Hawthorne001/media-elements/issues/44)
+* add renditions for Shaka video element ([#210](https://github.com/Hawthorne001/media-elements/issues/210)) ([138d359](https://github.com/Hawthorne001/media-elements/commit/138d3591910cf0925f32da09fc611ef8cc496a2b))
+* add shaka-video ([#14](https://github.com/Hawthorne001/media-elements/issues/14)) ([b56fe74](https://github.com/Hawthorne001/media-elements/commit/b56fe743516663d35741b771a03ae12879f84296))
+* use ce-la-react, fix React 19 issues ([#61](https://github.com/Hawthorne001/media-elements/issues/61)) ([0a734e9](https://github.com/Hawthorne001/media-elements/commit/0a734e94149172bfd3019cf03ac3a3e74f395ac1))
+
+
+### Bug Fixes
+
+* correct commit message format for volumechange youtube ([#179](https://github.com/Hawthorne001/media-elements/issues/179)) ([#188](https://github.com/Hawthorne001/media-elements/issues/188)) ([eb8ff39](https://github.com/Hawthorne001/media-elements/commit/eb8ff39d23f64072da8562aae2957c74d2491fa3))
+* updated shaka player to latest version ([#97](https://github.com/Hawthorne001/media-elements/issues/97)) ([50d1ea6](https://github.com/Hawthorne001/media-elements/commit/50d1ea6863db45d2f7a43ee0a17bf02f71f1b23a))
+* upgrade dependencies ([#130](https://github.com/Hawthorne001/media-elements/issues/130)) ([afb6797](https://github.com/Hawthorne001/media-elements/commit/afb6797342db3be3d173957d44df49fd26ffafc5))
+* upgrade dependencies ([#24](https://github.com/Hawthorne001/media-elements/issues/24)) ([f5abdcf](https://github.com/Hawthorne001/media-elements/commit/f5abdcff0637e7d1f6b82f4684d94fccaceb8484))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * custom-media-element bumped from ^1.4.5 to ^1.5.0
+    * media-tracks bumped from ^0.3.3 to ^0.4.0
+  * devDependencies
+    * build-react-wrapper bumped from ^0.2.4 to ^0.3.0
+
 ## [0.7.0](https://github.com/muxinc/media-elements/compare/shaka-video-element@0.6.21...shaka-video-element@0.7.0) (2026-02-17)
 
 

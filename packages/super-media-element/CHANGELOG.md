@@ -5,6 +5,21 @@
 [1]: https://www.npmjs.com/package/super-media-element?activeTab=versions
 
 
+## [1.5.0](https://github.com/Hawthorne001/media-elements/compare/super-media-element-v1.4.2...super-media-element@1.5.0) (2026-02-20)
+
+
+### Features
+
+* add renditions for Shaka video element ([#210](https://github.com/Hawthorne001/media-elements/issues/210)) ([138d359](https://github.com/Hawthorne001/media-elements/commit/138d3591910cf0925f32da09fc611ef8cc496a2b))
+* media elements arise 🌱 ([5303770](https://github.com/Hawthorne001/media-elements/commit/530377067b9d87b464b3c4eadc93c6b210deac56))
+
+
+### Bug Fixes
+
+* correct commit message format for volumechange youtube ([#179](https://github.com/Hawthorne001/media-elements/issues/179)) ([#188](https://github.com/Hawthorne001/media-elements/issues/188)) ([eb8ff39](https://github.com/Hawthorne001/media-elements/commit/eb8ff39d23f64072da8562aae2957c74d2491fa3))
+* update build-react-wrapper script ([5b42462](https://github.com/Hawthorne001/media-elements/commit/5b42462794192a19b730e7aaabba5646300f0a05))
+* upgrade dependencies ([#24](https://github.com/Hawthorne001/media-elements/issues/24)) ([f5abdcf](https://github.com/Hawthorne001/media-elements/commit/f5abdcff0637e7d1f6b82f4684d94fccaceb8484))
+
 ## [1.4.2](https://github.com/muxinc/media-elements/compare/super-media-element@1.4.1...super-media-element@1.4.2) (2024-06-07)
 
 
